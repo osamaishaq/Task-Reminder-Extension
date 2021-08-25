@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Pomodoro Timer",
+    "name": "Tomato Timer",
     "version": "1.0",
     "description": "Helps you focused and get things done!",
     "icons":{
@@ -10,11 +10,12 @@
     },
     "action": {
         "default_icon": "icon.png",
-        "default_title": "Pomodoro Timer",
+        "default_title": "Tomato Timer",
         "default_popup": "popup/popup.html"
     },
     "permissions": ["storage", "alarms", "notifications"],
     "background": {
         "service_worker": "background.js"
-    }
+    },
+    "options_page": "options/options.html"
 }
